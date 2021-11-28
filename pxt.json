@@ -1,0 +1,23 @@
+{
+    "name": "turtle",
+    "version": "1.0.0",
+    "description": "MakeCode extension for didabot turtle board",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "easybit.ts",
+        "turtle.ts",
+        "ws2812b.asm",
+        "ws2812b.ts",
+        "neopixel.ts",
+        "_locales/zh/turtle-strings.json"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:7c035382-0e98-4081-cc94-fd915880c822"
+}
