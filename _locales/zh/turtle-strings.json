@@ -10,7 +10,6 @@
     "Easybit.Colors.White|block": "白色",
     "Easybit.Colors.Black|block": "黑色",
     "{id:category}Turtle": "海龟扩展板",
-    "Turtle.groups.Servo|block": "舵机",
     "Turtle.Servo.S1|block": "S1",
     "Turtle.Servo.S2|block": "S2",
     "Turtle.Servo.S3|block": "S3",
@@ -24,5 +23,5 @@
     "Turtle.setAllLedRGB|block": "设置所有彩灯RGB值|R %red|G %green|B %blue|",
     "Turtle.clearAllLeds|block": "关闭所有彩灯",
     "Turtle.setLedsBrightness|block": "设置彩灯亮度|%level|",
-    "Turtle.enableLedScreen|block": "开启LED屏幕"
+    "Turtle.enableLedScreen|block": "开启LED屏幕|%enable|"
   }

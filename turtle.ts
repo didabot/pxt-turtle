@@ -1,8 +1,6 @@
 
 //% color=#009ede icon="\uf2db"
 //% groups='["Servo","RGB LED","Port"]'
-//% advanced=true
-//% weight=1
 namespace Turtle {
     export enum Servo {
         //% block="S1"
@@ -43,7 +41,7 @@ namespace Turtle {
         pins.servoWritePin(pin, degree);
     }
 
-    let neoStrip: neopixel.Strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB);
+    let neoStrip: neopixel.Strip = neopixel.create(DigitalPin.P16, 2, NeoPixelMode.RGB);
     neoStrip.setBrightness(75);
 
     /**
@@ -131,11 +129,11 @@ namespace Turtle {
      * turn on/off microbit led screen to enable/disable some pins. 
      * @param enable true to enable screen, false to disable
     */
-    //% blockId="Octopus_enable_led_screen block="enable led screen|%enable|"
-    //% weight=30
+    //% blockId=Octopus_enable_led_screen block="enable led screen|%enable|"
+    //% weight=140
     //% group="Port"
     export function enableLedScreen(enable : boolean): void {
         led.enable(enable);
-    }
+   }
 
 }
