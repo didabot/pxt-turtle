@@ -1,6 +1,6 @@
 {
     "name": "turtle",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "MakeCode extension for didabot turtle board",
     "license": "MIT",
     "dependencies": {
